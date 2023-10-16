@@ -1,3 +1,8 @@
 #!/usr/bin/node
-const add = require('./13-add').add;
-console.log(add(3, 5));
+
+module.exports = {
+  /*
+Computes the sum of 2 numbers.
+   */
+  add: (a, b) => a + b
+};
